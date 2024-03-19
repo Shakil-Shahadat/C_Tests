@@ -1,9 +1,10 @@
 #include<stdio.h> // .h is required
 // Using namespace std; // Produces error
 
-int main()
+int main() // void / int is required. Exactly 'main' has to be written
 {
-	printf( "Hello World!" );
+	printf( "Hello World!" ); // Double quotation && semi-colon are required
 
-	return 0; // Return is optional but requires a numeric value
+	// return 0;
+	// Return is optional but requires a numeric value if main is of type int
 }
