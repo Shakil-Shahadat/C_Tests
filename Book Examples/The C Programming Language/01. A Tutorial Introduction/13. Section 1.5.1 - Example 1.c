@@ -6,7 +6,7 @@ int main()
 {
 	int c;
 
-	c = getchar();
+	c = getchar(); // Last two line can be combined into one
 
 	while ( c != EOF )
 	{
@@ -16,4 +16,4 @@ int main()
 }
 
 // Output: Everything is mirrored to the output
-// Press ctrl + c, to quit the program
+// Press ctrl + z and then enter to end the program
