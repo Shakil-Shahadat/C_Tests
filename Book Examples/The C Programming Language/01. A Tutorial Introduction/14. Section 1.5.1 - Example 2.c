@@ -6,8 +6,8 @@ int main()
 {
 	int c;
 
-	while ( ( c = getchar() ) != EOF )
-	{
+	while ( ( c = getchar() ) != EOF )	// getchar() will either read from the
+	{									// console or ask user to input something
 		putchar( c );
 	}
 }
